@@ -11,7 +11,7 @@
 li, a{
 	font-family: Poppins;
 	font-weight: 500;
-	font-size: 4rem;
+	font-size: 3rem;
 	color: white;
 	text-decoration: none;
 }
@@ -26,7 +26,7 @@ header{
 
 .logo{
 	cursor: pointer;
-	font-size: 5rem;
+	font-size: 4rem;
 	font-weight: 500;
 	font-family: Poppins;
 	color: white;
