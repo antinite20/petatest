@@ -11,25 +11,28 @@
 li, a{
 	font-family: Poppins;
 	font-weight: 500;
-	font-size: 3rem;
+	font-size: 20px;
 	color: white;
 	text-decoration: none;
+	margin-right: 10px;
 }
 
 header{
+	width: 100%;
+	height: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px;
 	background-color: #00394f;
 }
 
 .logo{
 	cursor: pointer;
-	font-size: 4rem;
+	font-size: 20px;
 	font-weight: 500;
 	font-family: Poppins;
 	color: white;
+	margin-left: 30px;
 }
 
 .navbar{
@@ -38,11 +41,11 @@ header{
 
 .navbar li{
 	display: inline-block;
-	padding: 0 20px;
+	padding: 0 0px;
 	justify-content: space-between;
 	align-items: center;
-	margin-right: 50px;
-	letter-spacing: 5px;
+	margin-right: 10px;
+	letter-spacing: 1px;
 	font-weight: 300;
 }
 
@@ -59,18 +62,8 @@ header{
 
 /* hero section */
 
-.peta-title{
-	font-size: 5rem;
-	display: grid;
-	position: relative;
-	padding: 30px 0;
-	font-family: Poppins;
-	font-weight: 500;
-	color: #00394f;
-	letter-spacing: 10px;
-	align-items: center;
-}
 svg path{
+	width: 100%;
     fill: #00394f;
     stroke: #eee;
     stroke-width: .25;
@@ -81,31 +74,10 @@ svg path:hover{
     transition: .6s;
     cursor: pointer;
 }
+
+
 /* end hero section */
 
 /* project section */
-#projects .projects {
-	width: 100%;
-	max-width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 4rem;
-}
-
-#projects .projects .projects-header{
-	font-size: 30px;
-}
-
-h1, h2, p{
-	padding: 10px;
-	background-color: #00394f;
-}
-
-.project-item{
-	border: 10px solid;
-	margin-bottom: 50px;
-
-}
 
 /* end project section */
