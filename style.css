@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+/* header */
+
+li, a{
+	height: auto;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #00394f;
+}
+
+.logo{
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: Poppins;
+	color: white;
+	margin-left: 30px;
+}
+
+.navbar{
+	list-style: none;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 0 0px;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 10px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+.navbar li a{
+	transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+	color: white;
+}
+
+/* end header */
+
+
+/* hero section */
+
+svg path{
+	width: 100%;
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: .25;
+}
+
+svg path:hover{
+    fill: #006284;
+    transition: .6s;
+    cursor: pointer;
+}
+
+
+/* end hero section */
+
+/* project section */
+
+/* end project section */
